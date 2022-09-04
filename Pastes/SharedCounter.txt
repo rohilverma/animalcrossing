@@ -1,0 +1,11 @@
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 5
+4
+Total time taken: 1.7467041015625 seconds for 2 lines
+56
+Total time taken: 3.7160873413085938 seconds for 11 lines
+275
+Total time taken: 2.9100701808929443 seconds for 101 lines
+1262
+Total time taken: 9.568882465362549 seconds for 1000 lines
+1243
+Total time taken: 10.320136070251465 seconds for 1000 lines
