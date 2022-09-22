@@ -1,0 +1,43 @@
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 5
+Total time taken: 1.3102171421051025 seconds for 2 lines
+Total time taken: 2.5036885738372803 seconds for 11 lines
+Total time taken: 1.6122932434082031 seconds for 101 lines
+Total time taken: 2.128267526626587 seconds for 1000 lines
+Total time taken: 1.6007204055786133 seconds for 1000 lines
+
+
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 0.2563149929046631 seconds for 2 lines
+Total time taken: 0.6622636318206787 seconds for 11 lines
+Total time taken: 0.8706381320953369 seconds for 101 lines
+Total time taken: 1.4820375442504883 seconds for 1000 lines
+Total time taken: 1.8311059474945068 seconds for 1000 lines
+Total time taken: 1.8630197048187256 seconds for 1000 lines
+Total time taken: 2.95013427734375 seconds for 1000 lines
+Total time taken: 2.395594596862793 seconds for 1000 lines
+Total time taken: 2.0225908756256104 seconds for 1000 lines
+Total time taken: 1.9557693004608154 seconds for 1000 lines
+
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 0.33011913299560547 seconds for 2 lines
+Total time taken: 0.6103675365447998 seconds for 11 lines
+Total time taken: 1.2396831512451172 seconds for 101 lines
+Total time taken: 2.6020426750183105 seconds for 1000 lines
+Total time taken: 2.363680124282837 seconds for 1000 lines
+Total time taken: 2.291872501373291 seconds for 1000 lines
+Total time taken: 2.2838964462280273 seconds for 1000 lines
+Total time taken: 1.9278473854064941 seconds for 1000 lines
+Total time taken: 1.9776716232299805 seconds for 1000 lines
+Total time taken: 1.871994972229004 seconds for 1000 lines
+
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 0.32413268089294434 seconds for 2 lines
+Total time taken: 0.6712055206298828 seconds for 11 lines
+Total time taken: 1.2895526885986328 seconds for 101 lines
+Total time taken: 2.5960631370544434 seconds for 1000 lines
+Total time taken: 2.9091832637786865 seconds for 1000 lines
+Total time taken: 2.637948989868164 seconds for 1000 lines
+Total time taken: 2.4953277111053467 seconds for 1000 lines
+Total time taken: 2.1362855434417725 seconds for 1000 lines
+Total time taken: 2.0116219520568848 seconds for 1000 lines
+Total time taken: 1.8151471614837646 seconds for 1000 lines

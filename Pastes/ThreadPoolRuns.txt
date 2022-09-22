@@ -1,0 +1,93 @@
+5 Workers
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 5
+Total time taken: 2.937781810760498 seconds for 1000 lines
+Total time taken: 2.4738259315490723 seconds for 1000 lines
+Total time taken: 2.456892251968384 seconds for 1000 lines
+Total time taken: 2.5077171325683594 seconds for 1000 lines
+Total time taken: 2.6090140342712402 seconds for 1000 lines
+
+8 Workers
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 2.6598892211914062 seconds for 1000 lines
+Total time taken: 2.0026447772979736 seconds for 1000 lines
+Total time taken: 1.909031629562378 seconds for 1000 lines
+Total time taken: 1.8151602745056152 seconds for 1000 lines
+Total time taken: 1.6994426250457764 seconds for 1000 lines
+Total time taken: 1.7792632579803467 seconds for 1000 lines
+Total time taken: 1.8809516429901123 seconds for 1000 lines
+Total time taken: 1.9368226528167725 seconds for 1000 lines
+Total time taken: 1.9627525806427002 seconds for 1000 lines
+Total time taken: 3.7015600204467773 seconds for 1000 lines
+
+11 workers
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 1.6236248016357422 seconds for 1000 lines
+Total time taken: 2.1303060054779053 seconds for 1000 lines
+Total time taken: 1.9747211933135986 seconds for 1000 lines
+Total time taken: 1.8241212368011475 seconds for 1000 lines
+Total time taken: 2.4055705070495605 seconds for 1000 lines
+Total time taken: 2.657926321029663 seconds for 1000 lines
+Total time taken: 2.27189302444458 seconds for 1000 lines
+Total time taken: 2.1881535053253174 seconds for 1000 lines
+Total time taken: 2.181201457977295 seconds for 1000 lines
+Total time taken: 2.3885791301727295 seconds for 1000 lines
+
+12 workers
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 2.0515167713165283 seconds for 1000 lines
+Total time taken: 1.7792422771453857 seconds for 1000 lines
+Total time taken: 2.2340288162231445 seconds for 1000 lines
+Total time taken: 2.5641462802886963 seconds for 1000 lines
+Total time taken: 3.148622751235962 seconds for 1000 lines
+Total time taken: 3.40788197517395 seconds for 1000 lines
+Total time taken: 3.6223175525665283 seconds for 1000 lines
+Total time taken: 2.208096742630005 seconds for 1000 lines
+Total time taken: 2.094392776489258 seconds for 1000 lines
+Total time taken: 2.200115919113159 seconds for 1000 lines
+
+16 workers
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 1.4571044445037842 seconds for 1000 lines
+Total time taken: 1.4182097911834717 seconds for 1000 lines
+Total time taken: 1.3972663879394531 seconds for 1000 lines
+Total time taken: 2.0993881225585938 seconds for 1000 lines
+Total time taken: 2.5292723178863525 seconds for 1000 lines
+Total time taken: 1.6984262466430664 seconds for 1000 lines
+Total time taken: 1.8311052322387695 seconds for 1000 lines
+Total time taken: 2.4863970279693604 seconds for 1000 lines
+Total time taken: 2.5910727977752686 seconds for 1000 lines
+Total time taken: 2.373652458190918 seconds for 1000 lines
+
+20 workers
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 2.4753799438476562 seconds for 1000 lines
+Total time taken: 2.407562017440796 seconds for 1000 lines
+Total time taken: 2.8982582092285156 seconds for 1000 lines
+Total time taken: 2.8214519023895264 seconds for 1000 lines
+Total time taken: 2.0984294414520264 seconds for 1000 lines
+Total time taken: 2.425520420074463 seconds for 1000 lines
+Total time taken: 2.4793665409088135 seconds for 1000 lines
+Total time taken: 1.48203706741333 seconds for 1000 lines
+Total time taken: 1.1938092708587646 seconds for 1000 lines
+Total time taken: 1.2356994152069092 seconds for 1000 lines
+
+20 workers
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 10
+Total time taken: 1.258638858795166 seconds for 1000 lines
+Total time taken: 1.2965333461761475 seconds for 1000 lines
+Total time taken: 1.1778523921966553 seconds for 1000 lines
+Total time taken: 1.2895498275756836 seconds for 1000 lines
+Total time taken: 1.6984610557556152 seconds for 1000 lines
+Total time taken: 1.9527804851531982 seconds for 1000 lines
+Total time taken: 1.7393500804901123 seconds for 1000 lines
+Total time taken: 1.4132332801818848 seconds for 1000 lines
+Total time taken: 1.6924612522125244 seconds for 1000 lines
+Total time taken: 2.2509827613830566 seconds for 1000 lines
+
+25 workers
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 25
+Total time taken: 1.047032117843628 seconds for 1000 lines
+Total time taken: 1.2317087650299072 seconds for 1000 lines
+Total time taken: 1.2017865180969238 seconds for 1000 lines
+Total time taken: 1.1030499935150146 seconds for 1000 lines
+Total time taken: 1.1100339889526367 seconds for 1000 lines

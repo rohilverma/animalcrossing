@@ -16,6 +16,7 @@ BW:
 Raw notes:
 - Adding in a shared counter to track network calls was expensive
 - Removing locking of prices data structures improves performance
+- On avg. network calls take 0.06-0.12s to run
 
 
 Future ideas:
@@ -26,3 +27,8 @@ Future ideas:
 - Multiprocessing to break down computation further?
 - Lock-free tracking of top_users/lines
 - Concurrency for the network calls per transaction
+- Connection reuse, congestion window control, etc. improvement
+- Database storage
+
+Completed ideas:
+- ~~Verify correctness (compare single and multi-threaded output across 3 runs)~~

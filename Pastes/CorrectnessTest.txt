@@ -1,0 +1,12 @@
+(venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python correctness.py baskets.txt 10
+Total time taken: 4.19079852104187 seconds for 1000 lines
+Total time taken: 4.203793525695801 seconds for 1000 lines
+Total time taken: 5.279883146286011 seconds for 1000 lines
+Total time taken: 2.9052321910858154 seconds for 1000 lines
+Total time taken: 2.2449958324432373 seconds for 1000 lines
+Total time taken: 2.374652147293091 seconds for 1000 lines
+Total time taken: 2.81646990776062 seconds for 1000 lines
+Total time taken: 3.545520067214966 seconds for 1000 lines
+Total time taken: 2.739647388458252 seconds for 1000 lines
+Total time taken: 1.897956371307373 seconds for 1000 lines
+all asserts passed for 9 iterations!
