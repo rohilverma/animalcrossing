@@ -87,7 +87,7 @@ Total time taken: 2.2509827613830566 seconds for 1000 lines
 25 workers
 (venv) C:\Users\Rohil\PycharmProjects\CrescendoTH>python profile.py baskets.txt 25
 Total time taken: 1.047032117843628 seconds for 1000 lines
-Total time taken: 1.2317087650299072 seconds for 1000 lines
+Total time taken: 1.2317087650299072 seconds for 1000 lrines
 Total time taken: 1.2017865180969238 seconds for 1000 lines
 Total time taken: 1.1030499935150146 seconds for 1000 lines
 Total time taken: 1.1100339889526367 seconds for 1000 lines

@@ -1,0 +1,25 @@
+4000 tasks
+Threading 15.129552602767944
+PoolManager + ConnectionPool (1) 6.832734823226929
+ConnectionPool (1) 10.552790880203247
+ConnectionPool (5) 7.287516832351685
+ConnectionPool (10) 7.0272133350372314
+ConnectionPool (15) 5.89324426651001
+ConnectionPool (20) 17.439378023147583
+ConnectionPool (25) 5.365655899047852
+ConnectionPool (30) 5.816451072692871
+ConnectionPool (35) 6.025890827178955
+ConnectionPool (40) 4.996643304824829
+
+4000 tasks
+Threading 16.458930015563965
+PoolManager + ConnectionPool (1) 10.308445692062378
+ConnectionPool (1) 9.41383171081543
+ConnectionPool (5) 6.004910469055176
+ConnectionPool (10) 6.397896766662598
+ConnectionPool (15) 7.549791574478149
+ConnectionPool (20) 6.203417062759399
+ConnectionPool (25) 6.868602991104126
+ConnectionPool (30) 7.7841901779174805
+ConnectionPool (35) 5.895207405090332
+ConnectionPool (40) 5.9520487785339355

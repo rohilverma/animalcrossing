@@ -58,21 +58,21 @@ def variant4(n_tasks=1000, n_processes=10):
 
 
 if __name__ == "__main__":
-    for ExecClass in [ThreadPoolExecutor, ProcessPoolExecutor]:
-        samples = []
-        for _ in range(5):
-            s = time.time()
-            futures = []
-            with ExecClass(max_workers=3) as executor:
-                futures.append(executor.submit(variant1))
-                futures.append(executor.submit(variant2))
-                futures.append(executor.submit(variant4, 1000, 10))
-
-            for future in futures:
-                print(future.result())
-            e = time.time()
-            samples.append(e - s)
-        print("Final times: ", samples, ExecClass)
+    # for ExecClass in [ThreadPoolExecutor, ProcessPoolExecutor]:
+    #     samples = []
+    #     for _ in range(5):
+    #         s = time.time()
+    #         futures = []
+    #         with ExecClass(max_workers=3) as executor:
+    #             futures.append(executor.submit(variant1))
+    #             futures.append(executor.submit(variant2))
+    #             futures.append(executor.submit(variant4, 1000, 10))
+    #
+    #         for future in futures:
+    #             print(future.result())
+    #         e = time.time()
+    #         samples.append(e - s)
+    #     print("Final times: ", samples, ExecClass)
     # Many different errors, ex: Queue.Full, MemoryError, Paging file full
     # print(variant3(n_processes=50))
 
@@ -86,3 +86,20 @@ if __name__ == "__main__":
 
     # Why spinning up processes faster? Shouldn't really be any difference since tasks are the same
     # (Run a bunch of threads, and run some processes with threads).
+
+    print(variant1(10000))
+    print(variant2(n_tasks=10000, n_workers=10000))
+    print(variant4(n_tasks=10000, n_processes=20))
+    # Multiple processes have multiple GILs which theoretically allows for slightly faster processing of
+    # responses / setting up connection, sending requests, ie all segments which are not waiting for the response
+
+    # 45.70082473754883
+    # 57.97900199890137
+    # 42.7098183631897
+    # With 0.06s per request, 10000 requests will take 600s in serial. We end up at 45s, which suggests concurrency
+    # of 10-15 requests simultaneously
+    # We get some parallelism benefit from processes releasing GIL, which gets us to 42s. Presumably we could get
+    # more benefit if we had more compute on either end of the transactions.
+    # Why is the thread-pool slower?
+
+

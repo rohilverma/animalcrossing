@@ -24,7 +24,6 @@ Future ideas:
 - Explore Queues for inter-thread messaging
     - The above two ideas come from https://google.github.io/styleguide/pyguide.html#Threading
 - Retries or self rate-limiting to circumvent server-side rate-limiting
-- Multiprocessing to break down computation further?
 - Lock-free tracking of top_users/lines
 - Concurrency for the network calls per transaction
 - Connection reuse, congestion window control, etc. improvement
@@ -32,3 +31,4 @@ Future ideas:
 
 Completed ideas:
 - ~~Verify correctness (compare single and multi-threaded output across 3 runs)~~
+- ~~Multiprocessing to break down computation further?~~
